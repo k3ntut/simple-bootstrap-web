@@ -1,0 +1,201 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-white border-bottom">
+        <div class="container">
+          <img src="logo.png" class="ed"alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body d-flex flex-lg-row flex-column p-4 p-lg-0">
+              <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3 fs-5">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Catalog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Our Store</a>
+                  </li>
+              </ul>
+
+              <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+                <div class="d-flex gap-3">
+                <img src="like.png" class="util" alt="">
+                <img src="cart.png" class="util" alt="">
+                </div>
+                <a href="#login" class="text-decoration-none text-black">Login</a>
+                <a href="#signup" class="text-white text-decoration-none bg-secondary rounded-4 px-3 py-0.6">Sign Up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section class="container-fluid">
+        <div class="row gradient-row d-flex justify-content-center align-items-center text-center flex-column-reverse flex-sm-row">
+            <div class="container-md col-sm-5 abouted justify-content-center text-center">
+                <div>
+                    <p>Elite Design merupakan frame kacamata yang terbuat dari Perpaduan bahan stainlees steel dan Plastic TR yang ringan dan kuat sehingga nyaman saat dipakai, elite design juga memiliki design simple dan modern dibuat dari bahan yang berkualitas serta tampil dengan berbagai bentuk dan warna</p>
+                </div>
+                <div class="input-group custom-input mb-3 container-md">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="Search Glasses" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+            </div>
+            <div class="col-sm-6 ">
+                <img src="model.png" class="model img-fluid" alt="">
+            </div>
+        </div>
+      </section>
+
+      <div class="text-center">
+        <h1>Our Recomendation</h1>
+      </div>
+
+      <div id="carouselExample container-md" class="carousel carousel-dark container">
+        <div id="carouselExample" class="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active img-wrapper">
+              <img src="glasses2.jpg" class="d-block w-100 img-shadow" alt="...">
+            </div>
+            <div class="carousel-item img-wrapper">
+              <img src="glasses3.jpg" class="d-block w-100 img-shadow" alt="...">
+            </div>
+            <div class="carousel-item img-wrapper">
+              <img src="glasses4.jpg" class="d-block w-100 img-shadow" alt="...">
+            </div>
+            <div class="carousel-item img-wrapper">
+              <img src="glasses5.jpg" class="d-block w-100 img-shadow" alt="...">
+            </div>
+            <div class="carousel-item img-wrapper">
+              <img src="glasses6.jpg" class="d-block w-100 img-shadow" alt="...">
+            </div>
+            <div class="carousel-item img-wrapper">
+              <img src="glasses7.jpg" class="d-block w-100 img-shadow" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+        <button class="carousel-control-prev buttonn" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next buttonn" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="text-center review2">
+        <h1 class="review">Watch Our Review</h1>
+
+      <div class="iframe-container">
+      <iframe width="1280" height="720" src="https://www.youtube.com/embed/tGTNa2As01w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <h2 class="shoptext">Shop Now!!!</h2>
+  <h5 class="shopdesc">~~Before there is nothing left</h5>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 shopnow position-relative">
+        <img src="shopnow.jpg" class="img-fluid" alt="">
+        <div class="image-text image-text-1">
+          <h2>Shop Aviator</h2>
+        </div>
+      </div>
+      <div class="col-md-6 shopnow position-relative">
+        <img src="shopnow2.jpg" class="img-fluid" alt="">
+        <div class="image-text image-text-2">
+          <h2>Shop Rounded</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-lg-3 col-sm-6 container-sm">
+          <div class="single-box">
+            <img src="logo.png" class="ed2 img-fluid" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia a impedit explicabo amet natus quod sed, delectus et harum dolor facere possimus asperiores nihil deserunt consequuntur quam ea minus neque.</p>
+            </div>
+          </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="single-box"></div>
+          <h3>Pages</h3>
+          <ul>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Screenspecs</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="single-box"></div>
+          <h3>Policies</h3>
+          <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Privacy Policies</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Shipping and Handling</a></li>
+          <li><a href="#">Return And Exchange</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-sm-6">
+          <div class="single-box2"></div>
+          <h3>News Letter</h3>
+          <p>Tell us your email to stay updated to our new items every weeks and to subscribe to our Newsletter</p>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="button-addon2">
+              <button class="btn btn-outline-secondary" type="button" id="button-addon2">Submit</button>
+            </div>
+            <p>Phone Number: 08123123123</p>
+            <p>Address: Jalan Puri Pantai Indah</p>
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

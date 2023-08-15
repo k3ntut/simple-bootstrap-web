@@ -1,0 +1,239 @@
+body{
+    font-family: 'Barlow', sans-serif;
+    background-color: white;
+}
+
+.ed{
+    width: auto;
+    height: 55px;
+}
+
+.navbar{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.util{
+    height: 1.5rem;
+    width: auto;
+}
+
+.abouted{
+    font-size: 1.3em;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.gradient-row{
+    background: linear-gradient(to right, white, #AEAEAE);
+}
+
+h1{
+    padding: 20px;
+    font-weight: 600;
+}
+
+    .carousel-inner{
+        display: flex
+    }
+    .carousel-item{
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/3);
+    }
+
+.button{
+    height: 30vw;
+    width: auto;
+}
+
+@media screen and (max-width:720px) {
+    p{
+        font-size: 0.7em;
+    }
+}
+
+@media  screen and (max-width:1024px) {
+    .abouted{
+        font-size: 0.9em;
+    }
+}
+
+@media  screen and (max-width: 576px) {
+    .abouted{
+        padding: 50px;
+    }
+
+    p{
+        font-size: 1em;
+    }
+
+    .model{
+        margin-top: 10vw;
+        height: 75vw;
+        width: auto;
+    }
+}
+
+@media  screen and (max-width: 420px) {
+    .abouted{
+        padding: 30px;
+    }
+
+    p{
+        font-size: 0.8em;
+    }
+
+    .shoptext{
+        font-size: 1.5em;
+    }
+
+    .shopdesc{
+        font-size: 1.0em;
+    }
+
+    .image-text h2{
+        font-size: 1.5em;
+    }
+}
+
+@media  screen and (max-width:1280px) {
+    .image-text{
+        font-size: 0.7em;
+    }
+   
+    .shoptext{
+        font-size: 1.75em;
+    }
+
+    .shopdesc{
+        font-size: 1.25em;
+    }
+}
+
+.img-wrapper{
+    width: 100%;
+    height: 26vw;
+    padding: 2.5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-shadow {
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56%;
+    height: 0;
+}
+
+.review{
+    margin-top: 30px;
+    padding-top: 34px;
+}
+
+.review2{
+    background-color: #AEAEAE;
+}
+
+.iframe-container iframe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* right: 50%; */
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+}
+
+.shopnow{
+    padding: 0 0 0 0;
+}
+
+h2{
+    font-size: 2.5em;
+    font-weight: 900;
+    padding: 20px 0 10px 30px;
+}
+
+h5{
+    font-size: 1.75em;
+    padding: 0 0 10px 35px;
+}
+
+.shopnow img{
+    width: 990px;
+    height: 100%;
+}
+
+.image-text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    /* text-align: start; */
+    color: #463030;
+}
+
+.image-text-1{
+    top: 5%;
+    left: 50%;
+}
+
+.image-text-2{
+    top: 93%;
+    left: 50%;
+}
+
+footer{
+    
+   background-color: #AEAEAE;
+    padding: 30px 0;
+}
+
+.row1{
+    background-color: #AEAEAE;
+}
+
+.row1{
+    background-color: #AEAEAE;
+}
+
+p{
+    line-height: 2;
+    text-align: center;
+    justify-content: center;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+}
+
+ul{
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    line-height: 2.5;
+    color: black;
+}
+
+.single-box1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ed{
+    width: auto;
+    height: 60px;
+}
